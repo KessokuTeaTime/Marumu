@@ -3,6 +3,7 @@
 # Marumu (まるむ)
 
 ###### Be Flare, be Miracle!
+###### A magic mod fork by Malum Quilt.
 
 ## License
 

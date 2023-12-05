@@ -1,20 +1,20 @@
 [versions]
 # The latest versions are available at https://lambdaurora.dev/tools/import_quilt.html
-minecraft = "1.19.3"
-quilt_mappings = "1.19.3+build.20"
-quilt_loader = "0.18.1-beta.60"
+minecraft = "1.20.1"
+quilt_mappings = "1.20.1+build.23"
+quilt_loader = "0.21.0"
 
 isnrmn = "v1_03"
 fabric_asm = "v2.3"
-cca = "5.1.0"
-mixin_extras = "0.1.1"
-trinkets = "3.5.0"
-satin = "1.10.0"
-quilt_loading_screen = "5.0.0+1.19.3-rc1"
-midnightlib = "1.1.0"
-emi = "0.5.0+1.19.3"
-annotations = "1.0"
-quilted_fabric_api = "5.0.0-beta.1+0.73.0"
+cca = "5.3.0"
+mixin_extras = "0.2.1"
+trinkets = "3.7.1"
+satin = "1.14.0"
+quilt_loading_screen = "6.0.0+1.20.1"
+midnightlib = "1.4.1"
+emi = "1.0.27+1.20.1"
+annotations = "2.0.0"
+quilted_fabric_api = "7.4.0+0.90.0-1.20.1"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
@@ -30,7 +30,7 @@ trinkets = { module = "dev.emi:trinkets", version.ref = "trinkets" }
 quilt_loading_screen = { module = "maven.modrinth:quilt-loading-screen", version.ref = "quilt_loading_screen" }
 midnightlib = { module = "maven.modrinth:midnightlib", version.ref = "midnightlib"}
 satin = { module = "io.github.ladysnake:satin", version.ref = "satin" }
-emi = { module = "dev.emi:emi", version.ref = "emi" }
+emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
 annotations = { module = "com.demonwav.mcdev:annotations", version.ref = "annotations" }
 quilted_fabric_api = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api", version.ref = "quilted_fabric_api" }
 
